@@ -13,8 +13,8 @@ body{
 .layout{
   display:grid;
   grid-template-columns:220px 1fr;
-  gap:25px;
-  padding:25px;
+  gap:40px;
+  padding:40px;
   min-height:100vh;
 }
 
@@ -32,7 +32,7 @@ body{
 .main{
   display:flex;
   flex-direction:column;
-  gap:25px; /* antes 800px */
+  gap:120px; /* espacio entre header y cards */
 }
 
 /* HEADER */
@@ -51,7 +51,7 @@ body{
 .card-section{
   display:grid;
   grid-template-columns:repeat(3, 1fr);
-  gap:25px; /* antes 250px */
+  gap:80px; /* espacio entre cards */
 }
 
 /* CARD */
