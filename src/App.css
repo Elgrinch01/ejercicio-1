@@ -1,4 +1,4 @@
-/* Layout general */
+
 .layout{
   display: grid;
   grid-template-columns: 220px 1fr;
@@ -6,7 +6,7 @@
   background: #f4f4f4;
 }
 
-/* Sidebar */
+
 .sidebar{
   background: #ff4d4d;
   margin: 20px;
@@ -18,12 +18,12 @@
   font-weight: bold;
 }
 
-/* Main */
+
 .main{
   padding: 20px;
 }
 
-/* Header */
+
 .header{
   background: #ff4d4d;
   height: 150px;
@@ -36,13 +36,13 @@
   margin-bottom: 30px;
 }
 
-/* Cards container */
+
 .card-section{
   display: flex;
-  gap: 25px;
+  gap: 250px;
 }
 
-/* Card */
+
 .card{
   width: 180px;
   border-radius: 10px;
@@ -50,7 +50,7 @@
   border: 1px solid #ccc;
 }
 
-/* Parte superior */
+
 .card-top{
   background: #ff4d4d;
   height: 110px;
@@ -60,7 +60,7 @@
   color: white;
 }
 
-/* Parte inferior */
+
 .card-bottom{
   background: #ffffff;
   text-align: center;
