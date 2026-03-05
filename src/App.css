@@ -21,7 +21,7 @@ body{
 /* SIDEBAR */
 .sidebar{
   background:#dcdcdc;
-  border-radius:12px;
+  border-radius:120px;
   display:flex;
   justify-content:center;
   align-items:center;
