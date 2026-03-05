@@ -1,58 +1,68 @@
 /* Layout general */
 .layout{
-    display: grid;
-    grid-template-columns: 220px 1fr;
-    height: 100vh;
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  height: 100vh;
+  background: #f4f4f4;
 }
 
 /* Sidebar */
 .sidebar{
-    background: #d9d9d9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
+  background: #ff4d4d;
+  margin: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
 }
 
-/* Contenido principal */
+/* Main */
 .main{
-    padding: 20px;
+  padding: 20px;
 }
 
 /* Header */
 .header{
-    background: #d9d9d9;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
+  background: #ff4d4d;
+  height: 150px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 30px;
 }
 
-/* Sección de cards */
+/* Cards container */
 .card-section{
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 25px;
 }
 
 /* Card */
 .card{
-    width: 180px;
-    border: 1px solid #999;
+  width: 180px;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #ccc;
 }
 
-/* Parte superior de la card */
+/* Parte superior */
 .card-top{
-    background: #cfcfcf;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background: #ff4d4d;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
-/* Parte inferior de la card */
+/* Parte inferior */
 .card-bottom{
-    background: #f1f1f1;
-    text-align: center;
-    padding: 10px;
+  background: #ffffff;
+  text-align: center;
+  padding: 12px;
 }
