@@ -1,68 +1,71 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  background:#f2f2f2;
+}
 
 .layout{
-  display: grid;
-  grid-template-columns: 220px 1fr;
-  height: 100vh;
-  background: #f4f4f4;
+  display:grid;
+  grid-template-columns:220px 1fr;
+  gap:20px;
+  padding:20px;
+  min-height:100vh;
 }
-
 
 .sidebar{
-  background: #ff4d4d;
-  margin: 20px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-weight: bold;
+  background:red;
+  border-radius:12px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+  font-weight:bold;
 }
-
 
 .main{
-  padding: 20px;
+  display:flex;
+  flex-direction:column;
+  gap:25px;
 }
-
 
 .header{
-  background: #ff4d4d;
-  height: 150px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-weight: bold;
-  margin-bottom: 30px;
+  background:red;
+  height:150px;
+  border-radius:12px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
+  font-weight:bold;
 }
-
 
 .card-section{
-  display: flex;
-  gap: 250px;
+  display:flex;
+  gap:20px;
 }
-
 
 .card{
-  width: 180px;
-  border-radius: 10px;
-  overflow: hidden;
-  border: 1px solid #ccc;
+  width:180px;
+  border-radius:10px;
+  overflow:hidden;
+  border:1px solid #ccc;
 }
-
 
 .card-top{
-  background: #ff4d4d;
-  height: 110px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
+  background:red;
+  height:100px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:white;
 }
 
-
 .card-bottom{
-  background: #ffffff;
-  text-align: center;
-  padding: 12px;
+  background:#fff;
+  text-align:center;
+  padding:10px;
 }
