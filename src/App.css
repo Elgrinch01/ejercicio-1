@@ -9,10 +9,10 @@ body{
   font-family:sans-serif;
 }
 
-/* LAYOUT GENERAL */
+/* LAYOUT */
 .layout{
   display:grid;
-  grid-template-columns:240px 1fr;
+  grid-template-columns:220px 1fr;
   gap:25px;
   padding:25px;
   min-height:100vh;
@@ -20,7 +20,7 @@ body{
 
 /* SIDEBAR */
 .sidebar{
-  background:#ddd;
+  background:#dcdcdc;
   border-radius:12px;
   display:flex;
   justify-content:center;
@@ -28,7 +28,7 @@ body{
   font-weight:bold;
 }
 
-/* CONTENIDO PRINCIPAL */
+/* CONTENIDO */
 .main{
   display:flex;
   flex-direction:column;
@@ -37,44 +37,44 @@ body{
 
 /* HEADER */
 .header{
-  background:#ddd;
-  height:170px;
+  background:#e2e2e2;
+  height:130px;
   border-radius:12px;
   display:flex;
   justify-content:center;
   align-items:center;
+  border:1px solid #cfcfcf;
   font-weight:bold;
-  border:1px solid #c8c8c8;
 }
 
-/* SECCION DE CARDS */
+/* CONTENEDOR CARDS */
 .card-section{
   display:grid;
   grid-template-columns:repeat(3, 1fr);
-  gap:30px;
+  gap:25px;
 }
 
 /* CARD */
 .card{
-  border-radius:12px;
+  border-radius:10px;
   overflow:hidden;
-  border:1px solid #c8c8c8;
+  border:1px solid #cfcfcf;
   background:white;
 }
 
 /* PARTE SUPERIOR */
 .card-top{
-  background:#cfd4d9;
-  height:120px;
+  background:#c6ccd2;
+  height:90px;
   display:flex;
   justify-content:center;
   align-items:center;
-  font-weight:500;
 }
 
 /* PARTE INFERIOR */
 .card-bottom{
+  background:#eee;
   text-align:center;
-  padding:14px;
-  border-top:1px solid #c8c8c8;
+  padding:10px;
+  font-size:14px;
 }
