@@ -6,66 +6,75 @@
 
 body{
   background:#f2f2f2;
+  font-family:sans-serif;
 }
 
+/* LAYOUT GENERAL */
 .layout{
   display:grid;
-  grid-template-columns:220px 1fr;
-  gap:20px;
-  padding:20px;
+  grid-template-columns:240px 1fr;
+  gap:25px;
+  padding:25px;
   min-height:100vh;
 }
 
+/* SIDEBAR */
 .sidebar{
-  background:red;
+  background:#ddd;
   border-radius:12px;
   display:flex;
   justify-content:center;
   align-items:center;
-  color:white;
   font-weight:bold;
 }
 
+/* CONTENIDO PRINCIPAL */
 .main{
   display:flex;
   flex-direction:column;
-  gap:25px;
+  gap:30px;
 }
 
+/* HEADER */
 .header{
-  background:red;
-  height:150px;
+  background:#ddd;
+  height:170px;
   border-radius:12px;
   display:flex;
   justify-content:center;
   align-items:center;
-  color:white;
   font-weight:bold;
+  border:1px solid #c8c8c8;
 }
 
+/* SECCION DE CARDS */
 .card-section{
-  display:flex;
-  gap:20px;
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:30px;
 }
 
+/* CARD */
 .card{
-  width:180px;
-  border-radius:10px;
+  border-radius:12px;
   overflow:hidden;
-  border:1px solid #ccc;
+  border:1px solid #c8c8c8;
+  background:white;
 }
 
+/* PARTE SUPERIOR */
 .card-top{
-  background:red;
-  height:100px;
+  background:#cfd4d9;
+  height:120px;
   display:flex;
   justify-content:center;
   align-items:center;
-  color:white;
+  font-weight:500;
 }
 
+/* PARTE INFERIOR */
 .card-bottom{
-  background:#fff;
   text-align:center;
-  padding:10px;
+  padding:14px;
+  border-top:1px solid #c8c8c8;
 }
