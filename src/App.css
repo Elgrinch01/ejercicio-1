@@ -32,7 +32,7 @@ body{
 .main{
   display:flex;
   flex-direction:column;
-  gap:300px;
+  gap:800px;
 }
 
 /* HEADER */
